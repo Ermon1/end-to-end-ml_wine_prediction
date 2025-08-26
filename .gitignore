@@ -1,0 +1,27 @@
+(
+echo # Python
+echo __pycache__/
+echo *.py[cod]
+echo *.egg
+echo *.egg-info/
+echo *.so
+echo *.pyd
+echo *.pyo
+echo.
+echo # Environments
+echo .env
+echo venv/
+echo .venv/
+echo ENV/
+echo.
+echo # Jupyter
+echo .ipynb_checkpoints
+echo.
+echo # IDEs
+echo .vscode/
+echo .idea/
+echo.
+echo # OS
+echo Thumbs.db
+echo .DS_Store
+) > .gitignore
