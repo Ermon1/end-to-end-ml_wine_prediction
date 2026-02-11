@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "project_name",
+        "kind": 5,
+        "importPath": "template",
+        "description": "template",
+        "peekOfCode": "project_name = \"wine_ml\"\nlist_of_files = [\n    \".github/workflows/.gitkeep\",\n    f\"src/{project_name}/__init__.py\",\n    f\"src/{project_name}/components/__init__.py\",\n    f\"src/{project_name}/utils/__init__.py\",\n    f\"src/{project_name}/utils/common.py\",\n    f\"src/{project_name}/config/__init__.py\",\n    f\"src/{project_name}/config/configuration.py\",\n    f\"src/{project_name}/pipeline/__init__.py\",",
+        "detail": "template",
+        "documentation": {}
+    },
+    {
+        "label": "list_of_files",
+        "kind": 5,
+        "importPath": "template",
+        "description": "template",
+        "peekOfCode": "list_of_files = [\n    \".github/workflows/.gitkeep\",\n    f\"src/{project_name}/__init__.py\",\n    f\"src/{project_name}/components/__init__.py\",\n    f\"src/{project_name}/utils/__init__.py\",\n    f\"src/{project_name}/utils/common.py\",\n    f\"src/{project_name}/config/__init__.py\",\n    f\"src/{project_name}/config/configuration.py\",\n    f\"src/{project_name}/pipeline/__init__.py\",\n    f\"src/{project_name}/entity/__init__.py\",",
+        "detail": "template",
+        "documentation": {}
+    }
+]
