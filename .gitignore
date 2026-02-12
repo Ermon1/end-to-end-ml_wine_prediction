@@ -25,3 +25,7 @@ echo # OS
 echo Thumbs.db
 echo .DS_Store
 ) > .gitignore
+src/wine_ml.egg-info/ 
+.vscode/
+data/
+.vscode/PythonImportHelper-v2-Completion.json

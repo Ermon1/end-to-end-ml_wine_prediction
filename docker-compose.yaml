@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  wine_prediction:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "5000:5000"
+    command: bash 
+    stdin_open: true
+    tty: true
+    
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
+      
+    
